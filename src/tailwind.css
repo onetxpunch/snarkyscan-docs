@@ -4,3 +4,6 @@
 :root {
 	--sl-nav-gap: 0.5rem
 }
+::selection {
+	@apply bg-emerald-500
+}
