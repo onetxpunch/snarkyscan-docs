@@ -23,7 +23,8 @@ export default defineConfig({
       },
       favicon: "/favicon.ico",
       social: {
-        github: "https://github.com/withastro/starlight",
+        discord: "https://discord.gg/mF2KtH2C",
+        // github: "https://github.com/withastro/starlight",
       },
       sidebar: [
         {
