@@ -18,6 +18,9 @@ export default defineConfig({
         // Path to your Tailwind base styles:
         "./src/tailwind.css",
       ],
+      logo: {
+        src: "./src/assets/snarkyscanicon.png",
+      },
       social: {
         github: "https://github.com/withastro/starlight",
       },
