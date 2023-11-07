@@ -21,6 +21,7 @@ export default defineConfig({
       logo: {
         src: "./src/assets/snarkyscanicon.png",
       },
+      favicon: "/favicon.ico",
       social: {
         github: "https://github.com/withastro/starlight",
       },
