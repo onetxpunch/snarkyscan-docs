@@ -10,7 +10,7 @@ export default defineConfig({
       entrypoint: "astro/assets/services/noop",
     },
   },
-  base: "/snarkyscan-docs/",
+  site: "https://docs.snarkyscan.com",
   integrations: [
     starlight({
       title: "Snarkyscan",
