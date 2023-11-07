@@ -27,21 +27,54 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Guides",
+          label: "Block Explorer",
           items: [
             // Each item here is one entry in the navigation menu.
             {
-              label: "Example Guide",
-              link: "/guides/example/",
+              label: "🏁 Start Here",
+              link: "/guides/start-here/",
+            },
+            {
+              label: "🗺️ Overview",
+              link: "/guides/overview/",
+            },
+            {
+              label: "🖼️ Diagram",
+              link: "/guides/diagram/",
+            },
+            {
+              label: "🛸 Advanced",
+              link: "/guides/advanced/",
             },
           ],
         },
         {
-          label: "Reference",
+          label: "Verified ZkApps",
           autogenerate: {
-            directory: "reference",
+            directory: "verification",
           },
         },
+
+        {
+          label: "Explorer Networks",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            {
+              label: "Mainnet Snarkyscan.com",
+              link: "https://snarkyscan.com",
+            },
+            {
+              label: "Berkeley Snarkyscan.com",
+              link: "https://berkeley.snarkyscan.com",
+            },
+          ],
+        },
+        // {
+        //   label: "Reference",
+        //   autogenerate: {
+        //     directory: "reference",
+        //   },
+        // },
       ],
     }),
     tailwind({

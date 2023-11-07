@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-	--sl-nav-gap: 0.5rem
+	--sl-sidebar-item-padding-inline: 0.75rem;
+		--sl-nav-gap: 0.5rem;
 }
 ::selection {
 	@apply bg-emerald-500
