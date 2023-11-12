@@ -3,9 +3,19 @@ title: Example Guide
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+[Snarkyscan](https://snarkyscan.com) is an open source block explorer for [Mina](https://minaprotocol.com) protocol that you can selfhost and explore information about Mina accounts and ZkApps deployed on different networks.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- [🟩💎 Snarkyscan.com](#-snarkyscancom)
+  - [Overview](#overview)
+  - [Getting Started](#getting-started)
+    - [Canonical URLs](#canonical-urls)
+      - [Mina Mainnet: https://snarkyscan.com](#mina-mainnet-httpssnarkyscancom)
+      - [Mina's Berkeley Testnet: https://berkeley.snarkyscan.com](#minas-berkeley-testnet-httpsberkeleysnarkyscancom)
+      - [App Documentation:  https://docs.snarkyscan.com](#app-documentation--httpsdocssnarkyscancom)
+  - [Features](#features)
+  - [Deployment](#deployment)
+    - [Docker](#docker)
+    - [Docker-compose](#docker-compose)
+  - [Architecture](#architecture)
+  - [Contributing](#contributing)
+  - [Why Mina?](#why-mina)
