@@ -1,11 +1,12 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Snarkyscan Architecture
+description: Diagram of Snarkyscan explorer and satellite projects
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+This guide provides a visual representation of the project's architecture, showcasing the workflow and interaction between different components.
+
+![](https://github.com/onetxpunch/snarkyscan-frontend/raw/develop/diagram.png)
 
 ## Further reading
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Read [about the architecture](https://github.com/onetxpunch/snarkyscan-frontend#architecture) in the repository.
